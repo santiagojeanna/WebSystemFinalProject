@@ -1,0 +1,136 @@
+body {
+
+    font-family: Tahoma, sans-serif;
+    background-image: url(bg2.jpg);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.row1, .row2{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.header {
+    background-color: #AFDBF5;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.left-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    max-height: 210px;
+    width: 50%; /* Adjust width as needed */
+
+}
+
+.container {
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 55%; /* Adjust width as needed */
+
+}
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.form-actions input {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.form-actions input[type="submit"] {
+    background-color: #132949;
+    color: white;
+}
+
+.form-actions input[type="reset"] {
+    background-color: #e4e6eb;
+}
+    
+
+     .cuties {
+        display:flex;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin: 50px 0;
+       }
+
+       .cute{
+        flex: 25%;
+        text-align: center;
+        font-size: larger;
+        background-color: #f8f4f4f1;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+       }
+       .cute-icon {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 60%;
+        margin-bottom: 15px;
+        border: 2px solid #ddd;
+       }
+       .footer {
+        background-color: #eee;
+        text-align: center;
+        padding: 40px 20px;
+        color: #444;
+        font-size: 16px;
+       }
+       .footer h1 {
+        margin-bottom: 10px;
+       }
+
+       
+
+
+
+
+ 

@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2> Student Registration Form </h2>
+    </div>
+
+    <div>
+        <form>
+
+            <h4>Personal Information</h4>
+            <label>Last Name:</label>
+            <input type="text" name="txt_lname"><br><br>
+            <label>First Name:</label>
+            <input type="text" name="txt_fname"><br><br>
+            <label>Middle Initial:</label>
+            <input type="text" name="txt_middlei"><br><br>
+            
+            <label>Address:</label><br><br>
+            <textarea name="txt_address"></textarea><br><br>
+
+        <label>Birthday:</label>
+        <input type="date" name="txt_bday"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio"name="gender" value="Male">Male
+        <input type="radio"name="gender" value="Female">Female<br><br>
+
+        <label>Contact Number:</label>
+        <input type="contactnum" name="txt_contact"><br><br>
+
+        <h4>Educational Attainment</h4>
+        <label>Elementary:</label>
+        <input type="text" name="txt_elem"><br><br>
+
+        <label>Junior Highschool:</label>
+        <input type="text" name="txt_hs"><br><br>
+
+        <label>Senior Highschool:</label>
+        <input type="text" name="txt_hs"><br><br>
+
+        <label>Strand/Track:</label>
+        <select>
+            <option
+                value="ICT">ICT</option>
+            <option
+                value="ABM">ABM</option>
+            <option
+                value="STEM">STEM</option>
+            <option
+                value="HUMMS">HUMMS</option>
+        </select><br><br>
+    
+
+        <label>College:</label>
+        <input type="text" name="txt_college"><br><br>
+
+        <label>Program:</label>
+        <input type="text" name="txt_program"><br><br>
+
+    
+        <h4>Documents Submitted</h4>
+        <input type="checkbox" name="tor" value="TOR">Transcript of Records<br><br>
+        <input type="checkbox"name="bc" value="Birth Certificate">Birth Certificate<br><br>
+        <input type="checkbox"name="mr" value="Medical Results">Medical Results<br><br>
+        <input type="checkbox"name="f137" value="Form 137">Form 137<br><br>
+
+        <h4>Upload Scanned Copy</h4>
+        <label>Upload your file:</label>
+        <input type="file"
+name="upload_file"><br><br>
+        
+<input type="submit"
+name="btn_save" value="Save">
+
+
+<input type="reset">
+        </form>
+    </div>
+    
+</body>
+</html>
